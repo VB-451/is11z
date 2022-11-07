@@ -2,6 +2,7 @@
 padding: 0;
 margin: 0;
 }
+
 nav {
     display: flex;
     flex-direction: row;
@@ -215,6 +216,7 @@ font-size: 24px;
     height: 382px;
     left: -68px;
     top: 1227px;
+    z-index: -2;
 
 }
 
@@ -295,12 +297,46 @@ color: rgba(34, 34, 34, 0.1);
 .howto {
     position: absolute;
     display: flex;
-    left: 295px;
     top: 2016px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
 }
 
-.howimg {
-    display: inline-block;
+.spec {
+    padding-bottom: 22px;
+}
+
+.step {
+    padding-left: 70px;
+    height: 177px;
+    width: 238px;
+}
+
+.stepdescr {
+position: relative;
+left: -55px;
+top: 30px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+}
+
+.stepnum {
+position: relative;
+width: 58px;
+height: 131px;
+left: -35px;
+top: -140px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+text-align: center;
+color: rgba(249, 189, 189, 0.25);
 }
 
 .getpers {
@@ -494,6 +530,55 @@ color: rgba(34, 34, 34, 0.1);
     
 }
 
+.next {
+position: absolute;
+width: 55px;
+height: 19px;
+left: 1151px;
+top: 334px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
+
+.prev {
+position: absolute;
+left: 829px;
+top: 334px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+color: #C4C4C4
+}
+
+.figurs {
+    position: absolute;
+    display: flex;
+    top: 400px;
+    left: 1019px;
+
+}
+
+.bar1 {
+width: 40px;
+height: 8px;
+background: #DAA520;
+border-radius: 8px;
+margin-right: 8px;
+}
+
+.bar2 {
+width: 40px;
+height: 8px;
+background: #E5E5E5;
+border-radius: 8px;
+margin-right: 8px;
+}
+
 .imgfig {
     margin-right: 160px;
     border-bottom-right-radius: 96px;
@@ -648,4 +733,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.section4 {
+    position: absolute;
+    display:flex;
+    height: 850px;
+    width: 100%;
+    top:70px;
 }
