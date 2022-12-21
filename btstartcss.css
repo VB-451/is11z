@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navbarNav {
+    margin-left: 100px;
+}
+
+.nav-item{
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid orange;
+}
+
+.nav-buttons {
+    margin-left: 263px;
+}
+
+.nav-buttons button {
+    margin-right: 15px;
+}
+
+.sec1 {
+    margin-top: 158px;
+}
+
+.sec1 h3 {
+    font-size: 40px;
+}
+
+
+.sec2 {
+    margin-top:38px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    width: 548px;
+    justify-content: space-evenly;
+}
+
+.descr {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.button {
+    font-size: 20px;
+    padding:11px 22px ;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(220, 220, 10);
+    border: 1px solid yellow;
+    transition: background-color .25s ease-out,color .25s ease-out;
+}
+
+#line {
+    border-left: 1px solid black;
+    height: 150px;
+    margin-left:125px
+}
+
+.save {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(246, 244, 239);
+    margin-top: 145px;
+}
+
+.lists {
+    padding-top: 45px;
+}
+
+.lists ul {
+    margin-right: 45px;
+}
+.author {
+    font-size: 15px;
+}
+
+.logoname2 {
+    font-size: 30px;
+}
+
+.logo2 img {
+    width: auto;
+    height: 60px;
+}
+
+.fli {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.footer li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}

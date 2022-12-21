@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(246, 244, 239);
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    height: 90px;
+    background: white;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 170px;
+    z-index: 1;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.logomain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.name {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sec1 {
+    position: absolute;
+    display: flex;
+    width: 484px;
+    left: 525px;
+    top: 90px;
+    height: 630px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec1 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.sec1 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.login {
+    width: 100%;
+    height: 386px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input {
+    width: 90%;
+    min-width: 90%;
+    height: 48px;
+    font-size: 20px;
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.username, .password {
+    margin-left: 45px;
+}
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button {
+    position: absolute;
+    background-color: orange;
+    width: 60px;
+    color: white;
+    padding: 15px 185px;
+    left: 26px;
+    top: 357px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+
+.trouble {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 421px;
+    left: 143px;
+    font-weight: 700;
+}
+
+.fpass {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 92px;
+    font-weight: 700;
+}
+
+.blue {
+    color: blue;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 430px;
+}
+
+#final {
+    position: absolute;
+    width: 1150px;
+    top: 400px;
+    left: 200px;
+}
+
+.author {
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    top: 415px;
+    left: 200px;
+}
